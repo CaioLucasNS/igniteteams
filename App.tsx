@@ -23,8 +23,8 @@ export default function App() {
         translucent
       />
 
-      {/* {fontsLoaded ? <Groups /> : <Loading />} */}
-      {fontsLoaded ? <NewGroup /> : <Loading />}
+      {fontsLoaded ? <Groups /> : <Loading />}
+      {/* {fontsLoaded ? <NewGroup /> : <Loading />} */}
     </ThemeProvider>
   );
 }
